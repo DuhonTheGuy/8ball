@@ -21,7 +21,7 @@ import java.util.Random;
 
 @Slf4j
 @PluginDescriptor(
-	name = "An 8ball for you to make the hardest choices."
+	name = "8ball"
 )
 public class eightBallPlugin extends Plugin
 {
@@ -54,8 +54,8 @@ public class eightBallPlugin extends Plugin
 //		}
 //	}
 
-	public void onChatMessage(ChatMessage chatMessage){
-		if (chatMessage.getMessage() == "::8ball") {
+	public void onCommandExecuted(CommandExecuted commandExecuted){
+		if (commandExecuted.getCommand().equals("8ball")) {
 			Random rand = new Random();
 			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "", "The 8ball says: " + answerList.get(rand.nextInt(answerList.size())) , null);
 
