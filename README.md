@@ -16,7 +16,7 @@ To use the 8ball, simply type in chat "::8ball", and you will receive a message 
 
 # Contact me
 
-I am a busy person usually, but if you want to contact me you can either use Discord (I am on the official Runelite server as "Duhon"), or add me there! My username is "Duhon#1833".
+Note: Discord contact is currently closed because of the sheer amount of automated accounts adding me out of nowhere to advertise random stuff, so to avoid accidental ignoring, just use email or add me from the Runelite server.
 
 I will also try to answer on email, but don't be too sure the answer will be as quick as on Discord! My email is "duhontheguy@gmail.com".
 
